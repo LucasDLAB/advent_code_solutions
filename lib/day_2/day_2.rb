@@ -38,6 +38,6 @@ if __FILE__ == $PROGRAM_NAME
     )
   end
 
-  p points
-  p condicionated_points
+  p "Your score is #{points}"
+  p "Following the elf's strategy your score is #{condicionated_points}"
 end

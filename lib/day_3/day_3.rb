@@ -29,6 +29,6 @@ if __FILE__ == $PROGRAM_NAME
   items = File.open('lib/day_3/day_3_input.txt').readlines
     .map{ |item| item.delete("\n")}
 
-  p sum_priorities(catch_priority(items))
-  p sum_priorities(gather_group(items).compact)
+  p "The sum of priorities are #{sum_priorities(catch_priority(items))}"
+  p "The sum of priorities of all groups are #{sum_priorities(gather_group(items).compact)}"
 end
