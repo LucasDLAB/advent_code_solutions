@@ -9,8 +9,6 @@ def get_empty_calories_index(calories)
 end
 
 def get_three_highers(calories, elf_calories)
-  p calories
-  p elf_calories
   highers = []
   beginning = 0
 
